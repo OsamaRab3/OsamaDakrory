@@ -1,0 +1,260 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.profile-header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile-header h1 {
+    margin: 10px 0;
+    font-size: 2.5em;
+}
+
+.profile-header p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+
+h2 {
+    color: #000;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    font-size: 2em;
+}
+
+h3 {
+    color: #000;
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    font-size: 1.5em;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.about-me img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+.skill-category {
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    flex: 1 1 auto;
+    text-align: center;
+    min-width: 120px;
+}
+
+.projects {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #000;
+}
+
+.project-carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.project-carousel-inner {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.activities .activity {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.activities .activity img {
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.activities .activity-content {
+    flex: 1;
+}
+
+.activities .activity h3 {
+    margin-top: 0;
+}
+
+
+.open-source-contributions {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.open-source-contributions h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.open-source-contributions .contribution {
+    margin-bottom: 15px;
+}
+
+.open-source-contributions p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.open-source-contributions a {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px dashed #333;
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+.open-source-contributions a:hover {
+    color: #000;
+    border-bottom-color: #000;
+}
+
+
+footer {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.contact-links {
+    margin-bottom: 20px;
+}
+
+.contact-links p {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #000;
+}
+
+.contact-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.contact-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 10px;
+    display: inline-block;
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #555;
+}
